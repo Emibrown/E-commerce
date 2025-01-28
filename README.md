@@ -63,10 +63,12 @@ Place these in a .env file (recommended) or export them directly into your envir
 
 1. View the API docs in your browser at:
 
+    ```bash
     http://<host>:<port>/swagger/index.html
 
 2. If you edit the Swagger annotations or add new endpoints, regenerate the docs:
 
+    ```bash
     go install github.com/swaggo/swag/cmd/swag@latest
     swag init -g cmd/main.go
 
