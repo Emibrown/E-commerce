@@ -26,14 +26,14 @@ A sample **Golang** + **Gin** e-commerce RESTful API with **GORM** and **Swagger
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/ecommerce-api.git
-   cd ecommerce-api
+   git clone https://github.com/Emibrown/E-commerce
+   cd E-commerce
 
 2. Initialize/update Go modules:
     ```bash
     go mod tidy
 
-3. Create your database (e.g., ecommerce_db) in PostgreSQL (or adapt DSN to another DB).
+3. Create your database (e.g., ecommerce_db) in PostgreSQL.
 
 4. Set environment variables (either in a .env file or export them in your shell).
 
