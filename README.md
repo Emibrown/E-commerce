@@ -41,7 +41,6 @@ A sample **Golang** + **Gin** e-commerce RESTful API with **GORM** and **Swagger
 
 You can configure the application by setting the following variables:
 
-    ```bash
     DB_HOST=localhost
     DB_USER=postgres
     DB_PASSWORD=postgres
@@ -58,19 +57,16 @@ Place these in a .env file (recommended) or export them directly into your envir
 
 ## Running the App
 
-    ```bash
     go run cmd/main.go
 
 ## Swagger Documentation
 
 1. View the API docs in your browser at:
 
-    ```bash
     http://<host>:<port>/swagger/index.html
 
 2. If you edit the Swagger annotations or add new endpoints, regenerate the docs:
 
-     ```bash
     go install github.com/swaggo/swag/cmd/swag@latest
     swag init -g cmd/main.go
 
